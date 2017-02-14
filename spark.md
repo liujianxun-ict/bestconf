@@ -55,15 +55,17 @@ Figure 1: The performance surface of Spark under Hibench-Pagerank workload
 </table>
 Best Configuration for Spark
 --------
-We tuned 31 parameters for spark, the best value for each parameter is shown in spark-defaults.conf and spark-env.sh.
+We tuned 31 parameters for spark, the best value for each parameter is saved in spark-pagerank.bestconf.
 Script files
 --------
-[Scripts for Master node]
-[Scripts for Slave node]
+[Script files for Master node]
+[Scripts files for Slave node]
 Interface Impl
 -------
 The source files of SparkConfigReadin.java and SparkConfigWrite.java implement the interfaces of ConfigReadin.java and ConfigWrite.java respectively.  
 
+Download 
+-------
 
 
 
