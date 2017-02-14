@@ -42,18 +42,28 @@ Result
 -----------
 We use [HiBench](https://github.com/intel-hadoop/HiBench) that is a widely adopted benchmark tools in the workload generator for Spark to generate the target workload. Currently, the workload adopted in our test is Pagerank. Figure 1 plot the highly differed performance surfaces for Spark Pagerank workload.
 <table border="0" cellspacing="0" cellpadding="0" frame=void rows=none cols=none rules=none>
-<tr>
-<td>
+<tr border="0">
+<td border="0">
 <img src="https://github.com/liujianxun-ict/bestconf/blob/master/pics/spark-pagerank.jpg" width = "800" height = "500" align=center />
 </td>
 </tr>
-<tr><!--这里是下一行-->
-<td>
+<tr border="0">
+<td border="0" align=center>
 Figure 1: The performance surface of Spark under Hibench-Pagerank workload
 </td>
 </tr>
 </table>
+Best Configuration for Spark
+--------
+We tuned 31 parameters for spark, the best value for each parameter is shown in spark-defaults.conf and spark-env.sh.
+Script files
+--------
+[Scripts for Master node]
+[Scripts for Slave node]
+Interface Impl
+-------
+The source files of SparkConfigReadin.java and SparkConfigWrite.java implement the interfaces of ConfigReadin.java and ConfigWrite.java respectively.  
 
-                        
+
 
 
