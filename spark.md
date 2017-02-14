@@ -37,6 +37,11 @@ We executed Bestconf for the spark cluster with 4 nodes. The spark cluster consi
       </tr> 
     </table>
 </div>
+
 Result
 -----------
+The benchmark used to test Spark cluster performance is pagerank. Figure 1 plot the highly differed performance surfaces for Spark.
 ![](https://github.com/liujianxun-ict/bestconf/blob/master/pics/spark-pagerank.jpg)
+Figure 1: The performance surface of Spark under Hibench-Pagerank workload.
+
+
