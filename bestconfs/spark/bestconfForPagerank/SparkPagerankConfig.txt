@@ -22,9 +22,9 @@ spark.network.timeout 245
 spark.files.maxPartitionBytes 688723003
 spark.scheduler.minRegisteredResourcesRatio 0.375669
 spark.storage.memoryFraction 0.495232
-spark.executor.cores 10.850275
+spark.executor.cores 11
 spark.scheduler.revive.interval 8983
-spark.task.cpus 1.44122
+spark.task.cpus 1
 spark.memory.fraction 0.229967
 spark.memory.storageFraction 0.443266
 spark.storage.unrollFraction 0.467276
