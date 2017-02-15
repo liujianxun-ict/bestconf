@@ -2,7 +2,7 @@ BestConf for Hadoop+Hive
 ======================
 Experiment Environment
 -----------
-We executed Bestconf for the spark cluster with 4 nodes. The spark cluster consists of 1 master node and 3 slave nodes. All nodes used in our experiment are shown below.
+We executed Bestconf for the Hadoop cluster with 4 nodes. The Hadoop cluster consists of 1 master node and 3 slave nodes. All nodes used in our experiment are shown below.
 <div>
     <table border="0">
       <tr>
@@ -40,7 +40,7 @@ We executed Bestconf for the spark cluster with 4 nodes. The spark cluster consi
 
 Result
 -----------
-We use [HiBench](https://github.com/intel-hadoop/HiBench) that is a widely adopted benchmark tools in the workload generator for Spark to generate the target workload. Currently, the workload adopted in our test is Pagerank. Figure 1 plot the highly differed performance surfaces for Spark Pagerank workload.
+We use [HiBench](https://github.com/intel-hadoop/HiBench) that is a widely adopted benchmark tools in the workload generator for Spark to generate the target workload. Currently, the workload adopted in our test is Join. Figure 1 plot the highly differed performance surfaces for Hadoop+Hive Join workload.
 <table border="0" cellspacing="0" cellpadding="0" frame=void rows=none cols=none rules=none>
 <tr border="0">
 <td border="0">
