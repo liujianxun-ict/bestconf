@@ -58,14 +58,14 @@ Best Configuration for Spark
 We tuned 31 parameters for spark, the best value for each parameter is saved in spark-pagerank.bestconf.
 Script files
 --------
-[Script files for Master node]
-[Scripts files for Slave node]
+[Script files for Master node](https://github.com/liujianxun-ict/bestconf/tree/master/scripts/spark-shells-master)<br>
+[Scripts files for Slave node](https://github.com/liujianxun-ict/bestconf/tree/master/scripts/spark-shells-master)
 Interface Impl
 -------
-The source files of SparkConfigReadin.java and SparkConfigWrite.java implement the interfaces of ConfigReadin.java and ConfigWrite.java respectively.  
+The source files of [SparkConfigReadin.java](https://github.com/liujianxun-ict/bestconf/blob/master/src/spark/cn/ict/zyq/bestConf/cluster/InterfaceImpl/SparkConfigReadin.java) and [SparkConfigWrite.java](https://github.com/liujianxun-ict/bestconf/blob/master/src/spark/cn/ict/zyq/bestConf/cluster/InterfaceImpl/SparkConfigWrite.java) implement the interfaces of [ConfigReadin.java](https://github.com/liujianxun-ict/bestconf/blob/master/src/main/cn/ict/zyq/bestConf/cluster/Interface/ConfigReadin.java) and [ConfigWrite.java](https://github.com/liujianxun-ict/bestconf/blob/master/src/main/cn/ict/zyq/bestConf/cluster/Interface/ConfigWrite.java) respectively.  
 
 Download 
 -------
 
-
+https://github.com/liujianxun-ict/bestconf.git
 
